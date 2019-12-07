@@ -1,0 +1,88 @@
+
+#map {
+    height: 200%;
+    width:60%;
+   
+  }
+  .column {
+    float: left;
+    width: 500%;
+      
+  }
+  .column1 {
+    float: left;
+    width: 60%;
+    height: 780px; 
+  }
+  .column2 {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    height: 700px; 
+  }
+  .label-blue {
+      color:  #01579b;
+      font-size: 170%;
+      padding-left: 10px;
+      font-family: 'Hind', sans-serif;
+  }
+  .label-blue-small {
+    color: #0288D1;
+    font-size: 150%;
+    font-family: 'Hind', sans-serif;
+}
+  .address-input {
+      width: 500px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      height: 30px;
+      font-size: 100%;
+      margin-left: 10px;
+  }
+  .datetime-input {
+    width: 225px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 30px;
+    font-size: 100%;
+    margin-left: 10px;
+}
+  .proceed-btn {
+      width: 125%;
+      height: 60px;
+      color:azure;
+      font-size: 200%; 
+      font-family: 'Hind', sans-serif;
+      margin-bottom: 10px;
+      background: #01579b;
+      margin-left: 10px;
+      
+  }
+  .proceed-btn:hover{
+    background: #0288D1;
+  }
+  .distance {
+    font-family: 'Hind', sans-serif;
+    font-size: 170%;
+    color: grey;
+  }
+.datepicker{
+    height: 30px;
+    font-size: 100%;
+    width: 300px;
+    max-width: max-content;
+    padding-top: 15px;
+    margin-right: -175px;
+    float: right;
+
+}
+mat-form-field {
+  width: 50%;
+  }
+::ng-deep .mat-form-field-appearance-legacy .mat-form-field-wrapper {
+    padding-bottom: 1.25em;
+    padding-left: 7em;
+}
+::ng-deep .mat-form-field-underline ng-tns-c3-1 ng-star-inserted{
+  color: #01579b;
+}
